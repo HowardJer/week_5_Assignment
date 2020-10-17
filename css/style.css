@@ -15,10 +15,15 @@
     box-sizing: border-box;
 }
 
-div.em :first-child {
+div.em {
+
+    font-size: 1.5rem;
+}
+
+div.em :nth-child(2) {
 
     font-size: 2em;
-    color: red;
+    
 }
 
 div.rem  {
